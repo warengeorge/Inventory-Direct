@@ -1,22 +1,87 @@
-# Inventory Direct
+Inventory Direct
+===========================
+This is a simple Inventory Management System built using Flask and SQLAlchemy. This application allows users to add, update, and delete products and locations. Users can also add movements of products between locations.
 
-Inventory Direct is an online inventory management system, that allows users to keep track of the goods/products coming-in and going-out of the warehouse or storage facility of the business. This inventory management system typically offers a wide variety of features, from the location and the movement of goods and products, and may also offer features such as product-balance, updating of products and location etc.
-This is to satisfy the requirement needed to acquire the ALX-SE programme for the award of a Nano Degree.
-The technologies used for the backend include Python, Flask, SQLalchemy, FlaskRestful API, etc., for the client end html and bootstrap css and javascript.
+Getting Started
+---------------
 
-# Requirements
+### Prerequisites
 
-```
-# requirements.txt
+-   Python 3.7+
+-   Flask
+-   Flask_SQLAlchemy
 
-```
+### Installing
 
-### Useful Resources
+1.  Clone this repository
+  ```bash
+     git clone https://https://github.com/warengeorge/Inventory-Direct.git
+  ```
 
-1. (REACT-FLASK) [https://blog.miguelgrinberg.com/post/how-to-deploy-a-react--flask-project]
+2.  Install the required packages
 
-2. (Hostinger) [https://www.hostinger.com/tutorials/how-to-install-node-ubuntu?ppc_campaign=google_search_generic_hosting_all&bidkw=defaultkeyword&lo=1029760&gclid=CjwKCAiA3pugBhAwEiwAWFzwdTFl56n7ySz4NGhUz3fRdjcljbGEsBxiR0IBhno_tlmGQMyssJQVkhoCQAwQAvD_BwE]
+  ```bash Copy code
+      pip install -r requirements.txt
+  ```
 
-3. (ALCHEMY PATH) [https://www.digitalocean.com/community/tutorials/how-to-use-flask-sqlalchemy-to-interact-with-databases-in-a-flask-application]
+3.  Run the application
 
-4. (REACT_FLASK)[https://yasoob.me/posts/how-to-setup-and-deploy-jwt-auth-using-react-and-flask/]
+  ```bash
+      python app.py
+  ```
+4.  Open the application in your browser by navigating to  **`http://localhost:5000/`**
+
+## Usage
+
+The Inventory Management System has three main views: home, products, and locations.
+
+-   **Home View**: This is the default view when the application is started. From this view, users can navigate to the products or locations views.
+-   **Products View**: From this view, users can add, update, and delete products.
+-   **Locations View**: From this view, users can add, update, and delete locations.
+
+### Adding a Product
+
+1.  Navigate to the products view by clicking on the "Products" link in the navigation bar.
+2.  Enter the name of the product in the "Product Name" input field.
+3.  Click the "Add Product" button.
+
+### Updating a Product
+
+1.  Navigate to the products view by clicking on the "Products" link in the navigation bar.
+2.  Click the "Edit" button next to the product you want to update.
+3.  Update the product name in the "Product Name" input field.
+4.  Click the "Update Product" button.
+
+### Deleting a Product
+
+1.  Navigate to the products view by clicking on the "Products" link in the navigation bar.
+2.  Click the "Delete" button next to the product you want to delete.
+3.  Click the "Yes" button in the confirmation dialog.
+
+### Adding a Location
+
+1.  Navigate to the locations view by clicking on the "Locations" link in the navigation bar.
+2.  Enter the name of the location in the "Location Name" input field.
+3.  Click the "Add Location" button.
+
+### Updating a Location
+
+1.  Navigate to the locations view by clicking on the "Locations" link in the navigation bar.
+2.  Click the "Edit" button next to the location you want to update.
+3.  Update the location name in the "Location Name" input field.
+4.  Click the "Update Location" button.
+
+### Deleting a Location
+
+1.  Navigate to the locations view by clicking on the "Locations" link in the navigation bar.
+2.  Click the "Delete" button next to the location you want to delete.
+3.  Click the "Yes" button in the confirmation dialog.
+
+## Built With
+
+-   [Flask](https://flask.palletsprojects.com/en/2.0.x/) - The web framework used
+-   [SQLAlchemy](https://www.sqlalchemy.org/) - The Python SQL Toolkit and ORM
+
+## Authors
+
+-   **Tamunomiebi George** - _Initial work_ - [warengeorge](https://github.com/warengeorge)
